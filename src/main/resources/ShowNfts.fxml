@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.badbud.nfttun.controllers.ShowNfts">
+   <children>
+      <TableView fx:id="NFTTable" layoutX="11.0" layoutY="11.0" prefHeight="367.0" prefWidth="562.0">
+        <columns>
+          <TableColumn fx:id="NameCol" prefWidth="75.0" text="Name" />
+          <TableColumn fx:id="PriceCol" prefWidth="75.0" text="Price" />
+            <TableColumn fx:id="StatusCol" prefWidth="75.0" text="Status" />
+            <TableColumn fx:id="ImageCol" prefWidth="75.0" text="Image" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
